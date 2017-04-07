@@ -24,6 +24,7 @@ D:\Project\My-C-Sharp-Project\CMNNPM\CMNNPM\obj\Debug\CMNNPM.Hóa_Đơn.resource
 D:\Project\My-C-Sharp-Project\CMNNPM\CMNNPM\obj\Debug\CMNNPM.Properties.Resources.resources
 D:\Project\My-C-Sharp-Project\CMNNPM\CMNNPM\obj\Debug\CMNNPM.csproj.GenerateResource.Cache
 <<<<<<< HEAD
+<<<<<<< HEAD
 D:\Project\CMNNPM\CMNNPM\bin\Debug\CMNNPM.exe.config
 D:\Project\CMNNPM\CMNNPM\obj\Debug\CMNNPM.exe
 D:\Project\CMNNPM\CMNNPM\obj\Debug\CMNNPM.pdb
@@ -37,6 +38,11 @@ D:\Project\CMNNPM\CMNNPM\obj\Debug\CMNNPM.Form1.resources
 D:\Project\CMNNPM\CMNNPM\obj\Debug\CMNNPM.Hóa_Đơn.resources
 D:\Project\CMNNPM\CMNNPM\obj\Debug\CMNNPM.Properties.Resources.resources
 D:\Project\CMNNPM\CMNNPM\obj\Debug\CMNNPM.csproj.GenerateResource.Cache
+=======
+D:\MyCrafty\HKIV\NMCNPM\CMNNPM\CMNNPM\bin\Debug\CMNNPM.exe.config
+D:\MyCrafty\HKIV\NMCNPM\CMNNPM\CMNNPM\obj\Debug\CMNNPM.exe
+D:\MyCrafty\HKIV\NMCNPM\CMNNPM\CMNNPM\obj\Debug\CMNNPM.pdb
+>>>>>>> origin/master
 =======
 D:\MyCrafty\HKIV\NMCNPM\CMNNPM\CMNNPM\bin\Debug\CMNNPM.exe.config
 D:\MyCrafty\HKIV\NMCNPM\CMNNPM\CMNNPM\obj\Debug\CMNNPM.exe
