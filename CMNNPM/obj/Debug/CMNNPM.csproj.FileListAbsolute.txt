@@ -1,50 +1,14 @@
-D:\Project\C# project\CMNNPM\CMNNPM\bin\Debug\CMNNPM.exe.config
-D:\Project\C# project\CMNNPM\CMNNPM\bin\Debug\CMNNPM.exe
-D:\Project\C# project\CMNNPM\CMNNPM\bin\Debug\CMNNPM.pdb
-D:\Project\C# project\CMNNPM\CMNNPM\obj\Debug\CMNNPM.csprojResolveAssemblyReference.cache
-D:\Project\C# project\CMNNPM\CMNNPM\obj\Debug\CMNNPM.Form1.resources
-D:\Project\C# project\CMNNPM\CMNNPM\obj\Debug\CMNNPM.Properties.Resources.resources
-D:\Project\C# project\CMNNPM\CMNNPM\obj\Debug\CMNNPM.csproj.GenerateResource.Cache
-D:\Project\C# project\CMNNPM\CMNNPM\obj\Debug\CMNNPM.exe
-D:\Project\C# project\CMNNPM\CMNNPM\obj\Debug\CMNNPM.pdb
-D:\Project\C# project\CMNNPM\CMNNPM\obj\Debug\CMNNPM.Danh_sách_tiệc_cưới.resources
-D:\Project\C# project\CMNNPM\CMNNPM\obj\Debug\CMNNPM.Hóa_Đơn.resources
-D:\Project\C# project\CMNNPM\CMNNPM\obj\Debug\CMNNPM.Báo_Cáo_Doanh_Số.resources
-D:\Project\My-C-Sharp-Project\CMNNPM\CMNNPM\bin\Debug\CMNNPM.exe.config
-D:\Project\My-C-Sharp-Project\CMNNPM\CMNNPM\obj\Debug\CMNNPM.exe
-D:\Project\My-C-Sharp-Project\CMNNPM\CMNNPM\obj\Debug\CMNNPM.pdb
-D:\Project\My-C-Sharp-Project\CMNNPM\CMNNPM\bin\Debug\CMNNPM.exe
-D:\Project\My-C-Sharp-Project\CMNNPM\CMNNPM\bin\Debug\CMNNPM.pdb
-D:\Project\My-C-Sharp-Project\CMNNPM\CMNNPM\obj\Debug\CMNNPM.csprojResolveAssemblyReference.cache
-D:\Project\My-C-Sharp-Project\CMNNPM\CMNNPM\obj\Debug\CMNNPM.Báo_Cáo_Doanh_Số.resources
-D:\Project\My-C-Sharp-Project\CMNNPM\CMNNPM\obj\Debug\CMNNPM.Danh_sách_tiệc_cưới.resources
-D:\Project\My-C-Sharp-Project\CMNNPM\CMNNPM\obj\Debug\CMNNPM.Quản_lý.resources
-D:\Project\My-C-Sharp-Project\CMNNPM\CMNNPM\obj\Debug\CMNNPM.Form1.resources
-D:\Project\My-C-Sharp-Project\CMNNPM\CMNNPM\obj\Debug\CMNNPM.Hóa_Đơn.resources
-D:\Project\My-C-Sharp-Project\CMNNPM\CMNNPM\obj\Debug\CMNNPM.Properties.Resources.resources
-D:\Project\My-C-Sharp-Project\CMNNPM\CMNNPM\obj\Debug\CMNNPM.csproj.GenerateResource.Cache
-<<<<<<< HEAD
-<<<<<<< HEAD
 D:\Project\CMNNPM\CMNNPM\bin\Debug\CMNNPM.exe.config
-D:\Project\CMNNPM\CMNNPM\obj\Debug\CMNNPM.exe
-D:\Project\CMNNPM\CMNNPM\obj\Debug\CMNNPM.pdb
 D:\Project\CMNNPM\CMNNPM\bin\Debug\CMNNPM.exe
 D:\Project\CMNNPM\CMNNPM\bin\Debug\CMNNPM.pdb
-D:\Project\CMNNPM\CMNNPM\obj\Debug\CMNNPM.csprojResolveAssemblyReference.cache
 D:\Project\CMNNPM\CMNNPM\obj\Debug\CMNNPM.Báo_Cáo_Doanh_Số.resources
+D:\Project\CMNNPM\CMNNPM\obj\Debug\CMNNPM.DanhSachThucPham.resources
 D:\Project\CMNNPM\CMNNPM\obj\Debug\CMNNPM.Danh_sách_tiệc_cưới.resources
 D:\Project\CMNNPM\CMNNPM\obj\Debug\CMNNPM.Quản_lý.resources
 D:\Project\CMNNPM\CMNNPM\obj\Debug\CMNNPM.Form1.resources
 D:\Project\CMNNPM\CMNNPM\obj\Debug\CMNNPM.Hóa_Đơn.resources
 D:\Project\CMNNPM\CMNNPM\obj\Debug\CMNNPM.Properties.Resources.resources
 D:\Project\CMNNPM\CMNNPM\obj\Debug\CMNNPM.csproj.GenerateResource.Cache
-=======
-D:\MyCrafty\HKIV\NMCNPM\CMNNPM\CMNNPM\bin\Debug\CMNNPM.exe.config
-D:\MyCrafty\HKIV\NMCNPM\CMNNPM\CMNNPM\obj\Debug\CMNNPM.exe
-D:\MyCrafty\HKIV\NMCNPM\CMNNPM\CMNNPM\obj\Debug\CMNNPM.pdb
->>>>>>> origin/master
-=======
-D:\MyCrafty\HKIV\NMCNPM\CMNNPM\CMNNPM\bin\Debug\CMNNPM.exe.config
-D:\MyCrafty\HKIV\NMCNPM\CMNNPM\CMNNPM\obj\Debug\CMNNPM.exe
-D:\MyCrafty\HKIV\NMCNPM\CMNNPM\CMNNPM\obj\Debug\CMNNPM.pdb
->>>>>>> origin/master
+D:\Project\CMNNPM\CMNNPM\obj\Debug\CMNNPM.exe
+D:\Project\CMNNPM\CMNNPM\obj\Debug\CMNNPM.pdb
+D:\Project\CMNNPM\CMNNPM\obj\Debug\CMNNPM.csprojResolveAssemblyReference.cache

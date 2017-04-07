@@ -26,7 +26,7 @@ namespace CMNNPM
         {
             Form1 mForm = new Form1();
             mForm.Show();
-            mForm.Location = new Point(this.Location.X + this.Width ,this.Location.Y);
+            mForm.Location = new Point(50,50);
         }
 
         private void monthCalendar1_DateSelected(object sender, DateRangeEventArgs e)

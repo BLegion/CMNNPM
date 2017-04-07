@@ -20,6 +20,15 @@ namespace CMNNPM
         private void button2_Click(object sender, EventArgs e)
         {
             this.Close();
+            DanhSachThucPham form = new DanhSachThucPham();
+            form.Show();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            DanhSachThucPham mForm = new DanhSachThucPham();
+            mForm.Show();
+            mForm.Location = new Point(this.Location.X + this.Width, this.Location.Y);
         }
     }
 }

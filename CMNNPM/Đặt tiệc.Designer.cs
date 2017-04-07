@@ -28,8 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.ListViewItem listViewItem5 = new System.Windows.Forms.ListViewItem("");
-            System.Windows.Forms.ListViewItem listViewItem6 = new System.Windows.Forms.ListViewItem("");
+            System.Windows.Forms.ListViewItem listViewItem1 = new System.Windows.Forms.ListViewItem("");
+            System.Windows.Forms.ListViewItem listViewItem2 = new System.Windows.Forms.ListViewItem("");
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -257,6 +257,7 @@
             this.button3.TabIndex = 24;
             this.button3.Text = "Thêm món";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // groupBox1
             // 
@@ -339,7 +340,7 @@
             this.columnHeader3,
             this.columnHeader4});
             this.listView1.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
-            listViewItem5});
+            listViewItem1});
             this.listView1.Location = new System.Drawing.Point(9, 65);
             this.listView1.Name = "listView1";
             this.listView1.Size = new System.Drawing.Size(498, 97);
@@ -397,7 +398,7 @@
             this.columnHeader7,
             this.columnHeader8});
             this.listView2.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
-            listViewItem6});
+            listViewItem2});
             this.listView2.Location = new System.Drawing.Point(9, 38);
             this.listView2.Name = "listView2";
             this.listView2.Size = new System.Drawing.Size(498, 87);

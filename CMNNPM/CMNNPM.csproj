@@ -52,6 +52,12 @@
     <Compile Include="Báo Cáo Doanh Số.Designer.cs">
       <DependentUpon>Báo Cáo Doanh Số.cs</DependentUpon>
     </Compile>
+    <Compile Include="DanhSachThucPham.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DanhSachThucPham.Designer.cs">
+      <DependentUpon>DanhSachThucPham.cs</DependentUpon>
+    </Compile>
     <Compile Include="Đặt thời gian.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -80,6 +86,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Báo Cáo Doanh Số.resx">
       <DependentUpon>Báo Cáo Doanh Số.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DanhSachThucPham.resx">
+      <DependentUpon>DanhSachThucPham.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Đặt thời gian.resx">
       <DependentUpon>Đặt thời gian.cs</DependentUpon>
