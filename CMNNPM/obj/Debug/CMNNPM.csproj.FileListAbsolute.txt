@@ -23,3 +23,6 @@ D:\Project\My-C-Sharp-Project\CMNNPM\CMNNPM\obj\Debug\CMNNPM.Form1.resources
 D:\Project\My-C-Sharp-Project\CMNNPM\CMNNPM\obj\Debug\CMNNPM.Hóa_Đơn.resources
 D:\Project\My-C-Sharp-Project\CMNNPM\CMNNPM\obj\Debug\CMNNPM.Properties.Resources.resources
 D:\Project\My-C-Sharp-Project\CMNNPM\CMNNPM\obj\Debug\CMNNPM.csproj.GenerateResource.Cache
+D:\MyCrafty\HKIV\NMCNPM\CMNNPM\CMNNPM\bin\Debug\CMNNPM.exe.config
+D:\MyCrafty\HKIV\NMCNPM\CMNNPM\CMNNPM\obj\Debug\CMNNPM.exe
+D:\MyCrafty\HKIV\NMCNPM\CMNNPM\CMNNPM\obj\Debug\CMNNPM.pdb
