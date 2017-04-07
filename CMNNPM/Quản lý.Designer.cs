@@ -223,6 +223,7 @@
             this.cbYear.Size = new System.Drawing.Size(146, 21);
             this.cbYear.TabIndex = 44;
             this.cbYear.SelectedIndexChanged += new System.EventHandler(this.cbYear_SelectedIndexChanged);
+            this.cbYear.TextUpdate += new System.EventHandler(this.cbYear_TextUpdate);
             // 
             // Quản_lý
             // 
@@ -245,7 +246,6 @@
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Name = "Quản_lý";
             this.Text = "Quản lý (BM3)";
-            this.TopMost = true;
             this.ResumeLayout(false);
             this.PerformLayout();
 

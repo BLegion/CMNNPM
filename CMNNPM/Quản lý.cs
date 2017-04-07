@@ -26,6 +26,7 @@ namespace CMNNPM
         {
             Form1 mForm = new Form1();
             mForm.Show();
+            mForm.Location = new Point(this.Location.X + this.Width ,this.Location.Y);
         }
 
         private void monthCalendar1_DateSelected(object sender, DateRangeEventArgs e)
@@ -51,16 +52,21 @@ namespace CMNNPM
                 {
                     if (int.Parse(cbDate.Text) < 1)
                         cbDate.Text = "1";
-                    if ((((int.Parse(cbYear.Text) % 4 == 0) &&
-                         !(int.Parse(cbYear.Text) % 100 == 0))
-                         || (int.Parse(cbYear.Text) % 400 == 0)))
-                        if (int.Parse(cbMonth.Text) == 2)
-                            cbDate.Text = "29";
+                    else
+                    {
+                        if ((((int.Parse(cbYear.Text) % 4 == 0) &&
+                             !(int.Parse(cbYear.Text) % 100 == 0))
+                             || (int.Parse(cbYear.Text) % 400 == 0)))
+                        {
+                            dateOfMonth[2] = 29;
+                            cbDate.Text = dateOfMonth[int.Parse(cbMonth.Text)].ToString();
+                        }
                         else
                         {
                             if (int.Parse(cbDate.Text) > dateOfMonth[int.Parse(cbMonth.Text)])
                                 cbDate.Text = dateOfMonth[int.Parse(cbMonth.Text)].ToString();
                         }
+                    }
                 }
                 catch
                 {
@@ -94,21 +100,10 @@ namespace CMNNPM
 
         private void cbYear_TextUpdate(object sender, EventArgs e)
         {
-            try
-            {
-                monthCalendar1.SetDate(new DateTime(int.Parse(cbYear.Text), int.Parse(cbMonth.Text), int.Parse(cbDate.Text)));
-            }
-            catch
-            {
-                try
-                {
-                    monthCalendar1.SetDate(new DateTime(int.Parse(cbYear.Text), int.Parse(cbMonth.Text), 28));
-                }
-                catch
-                {
-                    return;
-                }
-            }
+            cbDate.Items.Clear();
+            cbDate.ResetText();
+            resetDateComboBox();
+            monthCalendar1.SetDate(new DateTime(int.Parse(cbYear.Text), int.Parse(cbMonth.Text), int.Parse(cbDate.Text)));
         }
         //add năm
         private void setDefault()
@@ -184,7 +179,7 @@ namespace CMNNPM
             cbDate.SelectedIndex = dateIndex;
         }
 
-        private void resetDateComboBox()
+        private void resetDateComboBox() //reset combobox theo giá trị mới của tháng
         {
             string strThisYear = monthCalendar1.SelectionRange.Start.ToString("yyyy");
             int intThisYear = int.Parse(strThisYear);
@@ -221,14 +216,42 @@ namespace CMNNPM
                 cbDate.Items.Add(i);
             }
             dateIndex = intThisDate - 1;
-            cbDate.SelectedIndex = dateIndex;
+            try
+            {
+                cbDate.SelectedIndex = dateIndex;
+            }
+            catch
+            {
+                try
+                {
+                    cbDate.SelectedIndex = dateIndex-1;
+                }
+                catch
+                {
+                    try
+                    {
+                        cbDate.SelectedIndex = dateIndex - 2;
+                    }
+                    catch
+                    {
+                        try
+                        {
+                            cbDate.SelectedIndex = dateIndex - 3;
+                        }
+                        catch
+                        {
+                            return;
+                        }
+                    }
+                }
+            }
         }
 
         private void cbMonth_SelectedIndexChanged(object sender, EventArgs e)
         {
             cbDate.Items.Clear();
             cbDate.ResetText();
-            resetDateComboBox();
+            resetDateComboBox();//reset combobox theo giá trị mới của tháng
             monthCalendar1.SetDate(new DateTime(int.Parse(cbYear.Text), int.Parse(cbMonth.Text), int.Parse(cbDate.Text)));
         }
 
