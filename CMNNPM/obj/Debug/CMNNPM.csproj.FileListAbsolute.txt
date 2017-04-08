@@ -1,0 +1,15 @@
+D:\MyCrafty\HKIV\NMCNPM\CMNNPM\CMNNPM\bin\Debug\CMNNPM.exe.config
+D:\MyCrafty\HKIV\NMCNPM\CMNNPM\CMNNPM\bin\Debug\CMNNPM.exe
+D:\MyCrafty\HKIV\NMCNPM\CMNNPM\CMNNPM\bin\Debug\CMNNPM.pdb
+D:\MyCrafty\HKIV\NMCNPM\CMNNPM\CMNNPM\obj\Debug\CMNNPM.csprojResolveAssemblyReference.cache
+D:\MyCrafty\HKIV\NMCNPM\CMNNPM\CMNNPM\obj\Debug\CMNNPM.BM1.BM1_tiendung.resources
+D:\MyCrafty\HKIV\NMCNPM\CMNNPM\CMNNPM\obj\Debug\CMNNPM.Báo_Cáo_Doanh_Số.resources
+D:\MyCrafty\HKIV\NMCNPM\CMNNPM\CMNNPM\obj\Debug\CMNNPM.DanhSachThucPham.resources
+D:\MyCrafty\HKIV\NMCNPM\CMNNPM\CMNNPM\obj\Debug\CMNNPM.Danh_sách_tiệc_cưới.resources
+D:\MyCrafty\HKIV\NMCNPM\CMNNPM\CMNNPM\obj\Debug\CMNNPM.Quản_lý.resources
+D:\MyCrafty\HKIV\NMCNPM\CMNNPM\CMNNPM\obj\Debug\CMNNPM.Form1.resources
+D:\MyCrafty\HKIV\NMCNPM\CMNNPM\CMNNPM\obj\Debug\CMNNPM.Hóa_Đơn.resources
+D:\MyCrafty\HKIV\NMCNPM\CMNNPM\CMNNPM\obj\Debug\CMNNPM.Properties.Resources.resources
+D:\MyCrafty\HKIV\NMCNPM\CMNNPM\CMNNPM\obj\Debug\CMNNPM.csproj.GenerateResource.Cache
+D:\MyCrafty\HKIV\NMCNPM\CMNNPM\CMNNPM\obj\Debug\CMNNPM.exe
+D:\MyCrafty\HKIV\NMCNPM\CMNNPM\CMNNPM\obj\Debug\CMNNPM.pdb
