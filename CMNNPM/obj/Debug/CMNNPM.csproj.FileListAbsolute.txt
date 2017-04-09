@@ -14,3 +14,6 @@ D:\MyCrafty\HKIV\NMCNPM\CMNNPM\CMNNPM\obj\Debug\CMNNPM.csproj.GenerateResource.C
 D:\MyCrafty\HKIV\NMCNPM\CMNNPM\CMNNPM\obj\Debug\CMNNPM.exe
 D:\MyCrafty\HKIV\NMCNPM\CMNNPM\CMNNPM\obj\Debug\CMNNPM.pdb
 D:\MyCrafty\HKIV\NMCNPM\CMNNPM\CMNNPM\obj\Debug\CMNNPM.BM1.BM1_hieuqua.resources
+C:\Users\Deruru\Documents\GitHub\CMNNPM\CMNNPM\bin\Debug\CMNNPM.exe.config
+C:\Users\Deruru\Documents\GitHub\CMNNPM\CMNNPM\obj\Debug\CMNNPM.exe
+C:\Users\Deruru\Documents\GitHub\CMNNPM\CMNNPM\obj\Debug\CMNNPM.pdb
