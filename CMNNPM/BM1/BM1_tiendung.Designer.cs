@@ -28,9 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.ColumnHeader columnHeader1;
-            System.Windows.Forms.ColumnHeader columnHeader2;
             this.panel1 = new System.Windows.Forms.Panel();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.label8 = new System.Windows.Forms.Label();
             this.tbTenSanh = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -44,21 +44,11 @@
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.label8 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.listView1 = new System.Windows.Forms.ListView();
-            this.columnHeader3 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader4 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader5 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
-            columnHeader1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            columnHeader2 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
             this.panel4.SuspendLayout();
-            this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
@@ -67,15 +57,33 @@
             this.panel1.Controls.Add(this.label8);
             this.panel1.Location = new System.Drawing.Point(12, 169);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(857, 101);
+            this.panel1.Size = new System.Drawing.Size(630, 101);
             this.panel1.TabIndex = 0;
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(110, 19);
+            this.textBox1.Multiline = true;
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(456, 64);
+            this.textBox1.TabIndex = 1;
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Location = new System.Drawing.Point(19, 19);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(85, 25);
+            this.label8.TabIndex = 0;
+            this.label8.Text = "Ghi chú:";
             // 
             // tbTenSanh
             // 
             this.tbTenSanh.Location = new System.Drawing.Point(110, 9);
             this.tbTenSanh.Multiline = true;
             this.tbTenSanh.Name = "tbTenSanh";
-            this.tbTenSanh.Size = new System.Drawing.Size(303, 35);
+            this.tbTenSanh.Size = new System.Drawing.Size(207, 35);
             this.tbTenSanh.TabIndex = 2;
             // 
             // label1
@@ -150,9 +158,9 @@
             this.panel3.Controls.Add(this.label3);
             this.panel3.Controls.Add(this.label5);
             this.panel3.Controls.Add(this.label2);
-            this.panel3.Location = new System.Drawing.Point(474, 68);
+            this.panel3.Location = new System.Drawing.Point(351, 68);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(395, 88);
+            this.panel3.Size = new System.Drawing.Size(291, 88);
             this.panel3.TabIndex = 1;
             // 
             // panel4
@@ -163,7 +171,7 @@
             this.panel4.Controls.Add(this.tbTenSanh);
             this.panel4.Location = new System.Drawing.Point(12, 68);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(456, 88);
+            this.panel4.Size = new System.Drawing.Size(333, 88);
             this.panel4.TabIndex = 1;
             // 
             // comboBox1
@@ -194,7 +202,7 @@
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(383, 9);
+            this.label7.Location = new System.Drawing.Point(257, 19);
             this.label7.MaximumSize = new System.Drawing.Size(0, 50);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(174, 31);
@@ -202,76 +210,9 @@
             this.label7.Text = "THÊM SẢNH";
             this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // panel2
-            // 
-            this.panel2.Controls.Add(this.listView1);
-            this.panel2.Location = new System.Drawing.Point(12, 276);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(857, 185);
-            this.panel2.TabIndex = 1;
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(19, 19);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(85, 25);
-            this.label8.TabIndex = 0;
-            this.label8.Text = "Ghi chú:";
-            // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(110, 19);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(579, 64);
-            this.textBox1.TabIndex = 1;
-            // 
-            // listView1
-            // 
-            this.listView1.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
-            columnHeader1,
-            columnHeader2,
-            this.columnHeader3,
-            this.columnHeader4,
-            this.columnHeader5});
-            this.listView1.Location = new System.Drawing.Point(3, 3);
-            this.listView1.Name = "listView1";
-            this.listView1.Size = new System.Drawing.Size(851, 178);
-            this.listView1.TabIndex = 0;
-            this.listView1.UseCompatibleStateImageBehavior = false;
-            this.listView1.View = System.Windows.Forms.View.Details;
-            // 
-            // columnHeader1
-            // 
-            columnHeader1.Text = "Tên sảnh";
-            columnHeader1.Width = 179;
-            // 
-            // columnHeader2
-            // 
-            columnHeader2.Text = "Loại sảnh";
-            columnHeader2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            columnHeader2.Width = 103;
-            // 
-            // columnHeader3
-            // 
-            this.columnHeader3.Text = "Tối thiểu";
-            this.columnHeader3.Width = 77;
-            // 
-            // columnHeader4
-            // 
-            this.columnHeader4.Text = "Tối đa";
-            this.columnHeader4.Width = 71;
-            // 
-            // columnHeader5
-            // 
-            this.columnHeader5.Text = "Ghi chú";
-            this.columnHeader5.Width = 485;
-            // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(212, 489);
+            this.button1.Location = new System.Drawing.Point(99, 297);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(129, 30);
             this.button1.TabIndex = 3;
@@ -280,7 +221,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(572, 489);
+            this.button2.Location = new System.Drawing.Point(459, 297);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(129, 30);
             this.button2.TabIndex = 4;
@@ -291,13 +232,12 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(886, 543);
+            this.ClientSize = new System.Drawing.Size(654, 348);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.panel4);
             this.Controls.Add(this.panel3);
-            this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Name = "BM1_tiendung";
             this.Text = "BM1_tiendung";
@@ -308,7 +248,6 @@
             this.panel3.PerformLayout();
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
-            this.panel2.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -332,11 +271,6 @@
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.ListView listView1;
-        private System.Windows.Forms.ColumnHeader columnHeader3;
-        private System.Windows.Forms.ColumnHeader columnHeader4;
-        private System.Windows.Forms.ColumnHeader columnHeader5;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
     }
