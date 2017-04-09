@@ -28,16 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.ListViewItem listViewItem2 = new System.Windows.Forms.ListViewItem("");
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Quản_lý));
-            this.listView1 = new System.Windows.Forms.ListView();
-            this.columnHeader1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader2 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader3 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader4 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader5 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader6 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader7 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
@@ -50,61 +41,16 @@
             this.label4 = new System.Windows.Forms.Label();
             this.monthCalendar1 = new System.Windows.Forms.MonthCalendar();
             this.cbYear = new System.Windows.Forms.ComboBox();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.STT = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.TenChuRe = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.TenCoDau = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Sanh = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Ngay = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Ca = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.SoLuongBan = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
-            // 
-            // listView1
-            // 
-            this.listView1.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
-            this.columnHeader1,
-            this.columnHeader2,
-            this.columnHeader3,
-            this.columnHeader4,
-            this.columnHeader5,
-            this.columnHeader6,
-            this.columnHeader7});
-            this.listView1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.listView1.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
-            listViewItem2});
-            this.listView1.Location = new System.Drawing.Point(15, 210);
-            this.listView1.Name = "listView1";
-            this.listView1.Size = new System.Drawing.Size(840, 241);
-            this.listView1.TabIndex = 26;
-            this.listView1.UseCompatibleStateImageBehavior = false;
-            this.listView1.View = System.Windows.Forms.View.Details;
-            // 
-            // columnHeader1
-            // 
-            this.columnHeader1.Text = "STT";
-            this.columnHeader1.Width = 37;
-            // 
-            // columnHeader2
-            // 
-            this.columnHeader2.Text = "Tên chú rể";
-            this.columnHeader2.Width = 150;
-            // 
-            // columnHeader3
-            // 
-            this.columnHeader3.Text = "Tên cô dâu";
-            this.columnHeader3.Width = 150;
-            // 
-            // columnHeader4
-            // 
-            this.columnHeader4.Text = "Sảnh";
-            this.columnHeader4.Width = 108;
-            // 
-            // columnHeader5
-            // 
-            this.columnHeader5.Text = "Ngày";
-            this.columnHeader5.Width = 131;
-            // 
-            // columnHeader6
-            // 
-            this.columnHeader6.Text = "Ca";
-            // 
-            // columnHeader7
-            // 
-            this.columnHeader7.Text = "Số lượng bàn";
-            this.columnHeader7.Width = 81;
             // 
             // button1
             // 
@@ -225,11 +171,79 @@
             this.cbYear.SelectedIndexChanged += new System.EventHandler(this.cbYear_SelectedIndexChanged);
             this.cbYear.TextUpdate += new System.EventHandler(this.cbYear_TextUpdate);
             // 
+            // dataGridView1
+            // 
+            this.dataGridView1.AllowUserToAddRows = false;
+            this.dataGridView1.AllowUserToDeleteRows = false;
+            this.dataGridView1.ColumnHeadersHeight = 25;
+            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.STT,
+            this.TenChuRe,
+            this.TenCoDau,
+            this.Sanh,
+            this.Ngay,
+            this.Ca,
+            this.SoLuongBan});
+            this.dataGridView1.Location = new System.Drawing.Point(15, 210);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.RowHeadersVisible = false;
+            this.dataGridView1.Size = new System.Drawing.Size(842, 205);
+            this.dataGridView1.TabIndex = 45;
+            // 
+            // STT
+            // 
+            this.STT.HeaderText = "STT";
+            this.STT.Name = "STT";
+            this.STT.ReadOnly = true;
+            this.STT.Width = 50;
+            // 
+            // TenChuRe
+            // 
+            this.TenChuRe.HeaderText = "Tên chú rể";
+            this.TenChuRe.Name = "TenChuRe";
+            this.TenChuRe.ReadOnly = true;
+            this.TenChuRe.Width = 200;
+            // 
+            // TenCoDau
+            // 
+            this.TenCoDau.HeaderText = "Tên cô dâu";
+            this.TenCoDau.Name = "TenCoDau";
+            this.TenCoDau.ReadOnly = true;
+            this.TenCoDau.Width = 200;
+            // 
+            // Sanh
+            // 
+            this.Sanh.HeaderText = "Sảnh";
+            this.Sanh.Name = "Sanh";
+            this.Sanh.ReadOnly = true;
+            // 
+            // Ngay
+            // 
+            this.Ngay.HeaderText = "Ngày";
+            this.Ngay.Name = "Ngay";
+            this.Ngay.ReadOnly = true;
+            this.Ngay.Width = 120;
+            // 
+            // Ca
+            // 
+            this.Ca.HeaderText = "Ca";
+            this.Ca.Name = "Ca";
+            this.Ca.ReadOnly = true;
+            this.Ca.Width = 50;
+            // 
+            // SoLuongBan
+            // 
+            this.SoLuongBan.HeaderText = "Số lượng bàn";
+            this.SoLuongBan.Name = "SoLuongBan";
+            this.SoLuongBan.ReadOnly = true;
+            this.SoLuongBan.Width = 119;
+            // 
             // Quản_lý
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(869, 463);
+            this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.cbYear);
             this.Controls.Add(this.monthCalendar1);
             this.Controls.Add(this.label4);
@@ -242,25 +256,16 @@
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.listView1);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Name = "Quản_lý";
             this.Text = "Quản lý (BM3)";
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.ListView listView1;
-        private System.Windows.Forms.ColumnHeader columnHeader1;
-        private System.Windows.Forms.ColumnHeader columnHeader2;
-        private System.Windows.Forms.ColumnHeader columnHeader3;
-        private System.Windows.Forms.ColumnHeader columnHeader4;
-        private System.Windows.Forms.ColumnHeader columnHeader5;
-        private System.Windows.Forms.ColumnHeader columnHeader6;
-        private System.Windows.Forms.ColumnHeader columnHeader7;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;
@@ -273,5 +278,13 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.MonthCalendar monthCalendar1;
         private System.Windows.Forms.ComboBox cbYear;
+        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn STT;
+        private System.Windows.Forms.DataGridViewTextBoxColumn TenChuRe;
+        private System.Windows.Forms.DataGridViewTextBoxColumn TenCoDau;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Sanh;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Ngay;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Ca;
+        private System.Windows.Forms.DataGridViewTextBoxColumn SoLuongBan;
     }
 }
