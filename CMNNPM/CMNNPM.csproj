@@ -46,16 +46,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="2\BM1_hieuqua.cs">
+    <Compile Include="BM1\BM1_dungdan.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="2\BM1_hieuqua.Designer.cs">
+    <Compile Include="BM1\BM1_dungdan.Designer.cs">
+      <DependentUpon>BM1_dungdan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BM1\BM1_hieuqua.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BM1\BM1_hieuqua.Designer.cs">
       <DependentUpon>BM1_hieuqua.cs</DependentUpon>
     </Compile>
-    <Compile Include="2\BM1_tiendung.cs">
+    <Compile Include="BM1\BM1_tiendung.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="2\BM1_tiendung.Designer.cs">
+    <Compile Include="BM1\BM1_tiendung.Designer.cs">
       <DependentUpon>BM1_tiendung.cs</DependentUpon>
     </Compile>
     <Compile Include="Báo Cáo Doanh Số.cs">
@@ -96,10 +102,13 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="2\BM1_hieuqua.resx">
+    <EmbeddedResource Include="BM1\BM1_dungdan.resx">
+      <DependentUpon>BM1_dungdan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BM1\BM1_hieuqua.resx">
       <DependentUpon>BM1_hieuqua.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="2\BM1_tiendung.resx">
+    <EmbeddedResource Include="BM1\BM1_tiendung.resx">
       <DependentUpon>BM1_tiendung.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Báo Cáo Doanh Số.resx">
