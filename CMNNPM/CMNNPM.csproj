@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BM1\BM1_hieuqua.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BM1\BM1_hieuqua.Designer.cs">
+      <DependentUpon>BM1_hieuqua.cs</DependentUpon>
+    </Compile>
     <Compile Include="BM1\BM1_tiendung.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -90,6 +96,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="BM1\BM1_hieuqua.resx">
+      <DependentUpon>BM1_hieuqua.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="BM1\BM1_tiendung.resx">
       <DependentUpon>BM1_tiendung.cs</DependentUpon>
     </EmbeddedResource>

@@ -3,12 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TiecCuoi", "..\TiecCuoi\TiecCuoi\TiecCuoi.csproj", "{DA88EAC0-27C0-493C-BEB7-932081770096}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataConnection2", "..\..\..\..\CourseDoc\DataConnection2\DataConnection2.csproj", "{007FC70E-F4C4-4983-AD24-2AFB2A60C37D}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DatabaseConnection3", "..\..\..\..\CourseDoc\DatabaseConnection3\DatabaseConnection3\DatabaseConnection3.csproj", "{159236F1-506A-4833-8D3E-39044C5B4919}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CMNNPM", "CMNNPM\CMNNPM.csproj", "{4BB480BD-8340-429D-941E-F7CC73619DE9}"
 EndProject
 Global
@@ -17,18 +11,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{DA88EAC0-27C0-493C-BEB7-932081770096}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DA88EAC0-27C0-493C-BEB7-932081770096}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DA88EAC0-27C0-493C-BEB7-932081770096}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DA88EAC0-27C0-493C-BEB7-932081770096}.Release|Any CPU.Build.0 = Release|Any CPU
-		{007FC70E-F4C4-4983-AD24-2AFB2A60C37D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{007FC70E-F4C4-4983-AD24-2AFB2A60C37D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{007FC70E-F4C4-4983-AD24-2AFB2A60C37D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{007FC70E-F4C4-4983-AD24-2AFB2A60C37D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{159236F1-506A-4833-8D3E-39044C5B4919}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{159236F1-506A-4833-8D3E-39044C5B4919}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{159236F1-506A-4833-8D3E-39044C5B4919}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{159236F1-506A-4833-8D3E-39044C5B4919}.Release|Any CPU.Build.0 = Release|Any CPU
 		{4BB480BD-8340-429D-941E-F7CC73619DE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{4BB480BD-8340-429D-941E-F7CC73619DE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4BB480BD-8340-429D-941E-F7CC73619DE9}.Release|Any CPU.ActiveCfg = Release|Any CPU

@@ -18,7 +18,8 @@ namespace CMNNPM
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             //Application.Run(new Quản_lý());
-            Application.Run(new BM1_tiendung());
+            //Application.Run(new BM1_tiendung());
+            Application.Run(new BM1_hieuqua());
         }
     }
 }
