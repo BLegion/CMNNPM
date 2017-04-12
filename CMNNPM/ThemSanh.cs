@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace CMNNPM
 {
-    public partial class Báo_Cáo_Doanh_Số : Form
+    public partial class ThemSanh : Form
     {
-        public Báo_Cáo_Doanh_Số()
+        public ThemSanh()
         {
             InitializeComponent();
         }

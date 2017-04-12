@@ -1,6 +1,6 @@
 ﻿namespace CMNNPM
 {
-    partial class Báo_Cáo_Doanh_Số
+    partial class BaoCaoDoanhSo
     {
         /// <summary>
         /// Required designer variable.
@@ -199,7 +199,7 @@
             this.button3.Text = "Xóa";
             this.button3.UseVisualStyleBackColor = true;
             // 
-            // Báo_Cáo_Doanh_Số
+            // BaoCaoDoanhSo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -209,7 +209,7 @@
             this.Controls.Add(this.button2);
             this.Controls.Add(this.listView1);
             this.Controls.Add(this.groupBox1);
-            this.Name = "Báo_Cáo_Doanh_Số";
+            this.Name = "BaoCaoDoanhSo";
             this.Text = "Báo Cáo Doanh Số (BM5)";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();

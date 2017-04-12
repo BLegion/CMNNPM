@@ -1,6 +1,6 @@
 ﻿namespace CMNNPM
 {
-    partial class Hóa_Đơn
+    partial class HoaDon
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.ListViewItem listViewItem2 = new System.Windows.Forms.ListViewItem("");
+            System.Windows.Forms.ListViewItem listViewItem1 = new System.Windows.Forms.ListViewItem("");
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -199,7 +199,7 @@
             this.columnHeader8,
             this.columnHeader1});
             this.listView2.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
-            listViewItem2});
+            listViewItem1});
             this.listView2.Location = new System.Drawing.Point(6, 19);
             this.listView2.Name = "listView2";
             this.listView2.Size = new System.Drawing.Size(553, 87);
@@ -454,7 +454,7 @@
             this.button2.Text = "Hủy bỏ";
             this.button2.UseVisualStyleBackColor = true;
             // 
-            // Hóa_Đơn
+            // HoaDon
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -465,7 +465,7 @@
             this.Controls.Add(this.groupBox4);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
-            this.Name = "Hóa_Đơn";
+            this.Name = "HoaDon";
             this.Text = "Hóa Đơn (BM4)";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();

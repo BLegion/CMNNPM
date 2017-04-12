@@ -16,7 +16,7 @@ namespace CMNNPM
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Quản_lý());
+            Application.Run(new QuanLy());
         }
     }
 }

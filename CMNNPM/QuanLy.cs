@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace CMNNPM
 {
-    public partial class Quản_lý : Form
+    public partial class QuanLy : Form
     {
-        public Quản_lý()
+        public QuanLy()
         {
             InitializeComponent();
             setDefault();
@@ -24,7 +24,7 @@ namespace CMNNPM
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Form1 mForm = new Form1();
+            DatTiec mForm = new DatTiec();
             mForm.Show();
             mForm.Location = new Point(50,50);
         }
@@ -266,6 +266,12 @@ namespace CMNNPM
         private void cbDate_SelectedIndexChanged(object sender, EventArgs e)
         {
             monthCalendar1.SetDate(new DateTime(int.Parse(cbYear.Text),int.Parse(cbMonth.Text),int.Parse(cbDate.Text)));
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            QuanTri form = new QuanTri();
+            form.Show();
         }
     }
 }
